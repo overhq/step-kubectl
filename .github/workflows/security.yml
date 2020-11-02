@@ -14,7 +14,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install Tartufo
-        run: pip3 install 'tartufo==2.0.1'
+        run: pip3 install 'tartufo== ${{ secrets.OVER_SERVICES_TARTUFO_VERSION }}'
 
       - name: Log installed Tartufo version
         run: tartufo --version | sed s'/\./-/g'
