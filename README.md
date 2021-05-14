@@ -64,6 +64,11 @@ The MIT License (MIT)
 
 # Changelog
 
+## 3.5.4
+
+- Pin Wercker/default to 0.0.2
+- Remove shellcheck step
+
 ## 3.5.0
 
 - Update to kubectl to version `1.14.8`
