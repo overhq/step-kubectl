@@ -1,8 +1,6 @@
-box: wercker/default
+box: wercker/default@0.0.2
 build:
     steps:
-        - shellcheck
-
         - script:
             name: config
             code: |
